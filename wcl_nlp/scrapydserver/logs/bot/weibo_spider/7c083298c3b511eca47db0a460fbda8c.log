@@ -1,0 +1,36 @@
+2022-04-24 18:01:28 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: bot)
+2022-04-24 18:01:28 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.7.11 (default, Jul 27 2021, 09:42:29) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.22000-SP0
+2022-04-24 18:01:28 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'bot', 'DOWNLOAD_DELAY': 3, 'LOG_FILE': 'logs\\bot\\weibo_spider\\7c083298c3b511eca47db0a460fbda8c.log', 'NEWSPIDER_MODULE': 'bot.spiders', 'SPIDER_MODULES': ['bot.spiders']}
+2022-04-24 18:01:28 [scrapy.extensions.telnet] INFO: Telnet Password: 8e73efdf63a2ca8f
+2022-04-24 18:01:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-04-24 18:01:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-04-24 18:01:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-04-24 18:01:28 [scrapy.middleware] INFO: Enabled item pipelines:
+['bot.pipelines.BotPipeline']
+2022-04-24 18:01:28 [scrapy.core.engine] INFO: Spider opened
+2022-04-24 18:01:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-04-24 18:01:28 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2022-04-24 18:01:28 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-04-24 18:01:28 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 4, 24, 10, 1, 28, 251163),
+ 'log_count/INFO': 9,
+ 'start_time': datetime.datetime(2022, 4, 24, 10, 1, 28, 232163)}
+2022-04-24 18:01:28 [scrapy.core.engine] INFO: Spider closed (finished)
